@@ -303,3 +303,10 @@
     transition-duration: 0.01ms;
   }
 }
+
+::selection {
+  background-color: #ffcc00;
+  /* Example: yellow background */
+  color: black;
+  /* Example: black text on selection */
+}
