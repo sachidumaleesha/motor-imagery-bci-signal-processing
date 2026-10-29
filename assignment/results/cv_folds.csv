@@ -1,0 +1,21 @@
+model,fold,train_n,test_n,accuracy,auc,best_params
+LDA,1,27,3,0.3333333333333333,0.0,fixed
+SVM,1,27,3,0.3333333333333333,0.0,"{'classifier__C': 1, 'classifier__gamma': 'scale'}"
+LDA,2,27,3,0.3333333333333333,0.0,fixed
+SVM,2,27,3,0.3333333333333333,0.5,"{'classifier__C': 0.1, 'classifier__gamma': 'scale'}"
+LDA,3,27,3,0.6666666666666666,1.0,fixed
+SVM,3,27,3,1.0,1.0,"{'classifier__C': 10, 'classifier__gamma': 'scale'}"
+LDA,4,27,3,0.6666666666666666,0.5,fixed
+SVM,4,27,3,0.3333333333333333,0.5,"{'classifier__C': 10, 'classifier__gamma': 'scale'}"
+LDA,5,27,3,0.6666666666666666,1.0,fixed
+SVM,5,27,3,0.6666666666666666,1.0,"{'classifier__C': 1, 'classifier__gamma': 'scale'}"
+LDA,6,27,3,0.6666666666666666,1.0,fixed
+SVM,6,27,3,0.6666666666666666,1.0,"{'classifier__C': 10, 'classifier__gamma': 'scale'}"
+LDA,7,27,3,0.0,0.0,fixed
+SVM,7,27,3,0.0,0.0,"{'classifier__C': 1, 'classifier__gamma': 'scale'}"
+LDA,8,27,3,0.6666666666666666,1.0,fixed
+SVM,8,27,3,0.6666666666666666,1.0,"{'classifier__C': 1, 'classifier__gamma': 'scale'}"
+LDA,9,27,3,1.0,1.0,fixed
+SVM,9,27,3,1.0,1.0,"{'classifier__C': 10, 'classifier__gamma': 'scale'}"
+LDA,10,27,3,0.6666666666666666,0.5,fixed
+SVM,10,27,3,0.6666666666666666,1.0,"{'classifier__C': 10, 'classifier__gamma': 'scale'}"

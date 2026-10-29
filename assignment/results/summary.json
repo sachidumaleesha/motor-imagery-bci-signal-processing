@@ -1,0 +1,166 @@
+{
+  "versions": {
+    "mne": "1.11.0",
+    "numpy": "2.3.4",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "threadpoolctl": "3.7.0"
+  },
+  "channels": [
+    "Fp1",
+    "Fp2",
+    "F3",
+    "Fz",
+    "F4",
+    "FC3",
+    "FCz",
+    "FC4",
+    "C3",
+    "Cz",
+    "C4",
+    "CP3",
+    "CPz",
+    "CP4",
+    "P3",
+    "P4"
+  ],
+  "calibration_runs": [
+    1,
+    2
+  ],
+  "training_runs": [
+    8,
+    12
+  ],
+  "reserved_run": 4,
+  "training_class_counts": [
+    15,
+    15
+  ],
+  "ica_excluded": [
+    1
+  ],
+  "frontal_low_frequency_attenuation_proxy_db": [
+    7.787567625401523,
+    8.101019905321857
+  ],
+  "true_snr_improvement_db": null,
+  "cv": {
+    "LDA": {
+      "accuracy": 0.5666666666666667,
+      "roc_auc": 0.6044444444444445,
+      "fold_accuracy_sd": 0.27442420078285484,
+      "confusion_matrix": [
+        [
+          8,
+          7
+        ],
+        [
+          6,
+          9
+        ]
+      ]
+    },
+    "SVM": {
+      "accuracy": 0.5666666666666667,
+      "roc_auc": 0.6177777777777778,
+      "fold_accuracy_sd": 0.31622776601683794,
+      "confusion_matrix": [
+        [
+          9,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ]
+    }
+  },
+  "run_separated_check": [
+    {
+      "model": "LDA",
+      "held_out_run": 8,
+      "accuracy": 0.4666666666666667,
+      "auc": 0.7142857142857142
+    },
+    {
+      "model": "SVM",
+      "held_out_run": 8,
+      "accuracy": 0.5333333333333333,
+      "auc": 0.7321428571428572
+    },
+    {
+      "model": "LDA",
+      "held_out_run": 12,
+      "accuracy": 0.6,
+      "auc": 0.5714285714285714
+    },
+    {
+      "model": "SVM",
+      "held_out_run": 12,
+      "accuracy": 0.6,
+      "auc": 0.5714285714285714
+    }
+  ],
+  "alpha_erd": [
+    {
+      "channel": "C3",
+      "class": "Left",
+      "paired_trials": 15,
+      "mean_alpha_ERD_percent": -13.391319025269388
+    },
+    {
+      "channel": "C3",
+      "class": "Right",
+      "paired_trials": 15,
+      "mean_alpha_ERD_percent": -9.016193967393258
+    },
+    {
+      "channel": "C4",
+      "class": "Left",
+      "paired_trials": 15,
+      "mean_alpha_ERD_percent": -0.8948698539344501
+    },
+    {
+      "channel": "C4",
+      "class": "Right",
+      "paired_trials": 15,
+      "mean_alpha_ERD_percent": -1.0254212200388617
+    }
+  ],
+  "timing": {
+    "chunks": 2000,
+    "decisions": 1993,
+    "mean_ms": 0.44535445,
+    "p95_ms": 0.5648049999999998,
+    "max_ms": 1.3954,
+    "decision_mean_ms": 0.44657280481685907,
+    "chunks_over_15_ms": 0,
+    "chunks_over_arrival_period": 0,
+    "max_completion_lag_ms": 1.3953999999994267,
+    "simulated_queue_drops": 0,
+    "all_samples_processed_in_replay": true,
+    "strict_latency_pass": true
+  },
+  "stream": {
+    "held_out_run": 4,
+    "trial_count": 15,
+    "overlapping_window_accuracy": 0.7699876998769988,
+    "trial_accuracy": 1.0,
+    "trial_confusion_matrix": [
+      [
+        8,
+        0
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "command_period_seconds_including_rest": 8.3,
+    "wolpaw_bits_per_trial": 1.0,
+    "idealized_ITR_bits_per_min": 7.228915662650602
+  }
+}

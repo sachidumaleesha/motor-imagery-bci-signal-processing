@@ -1,0 +1,4 @@
+band,components,features,empirical_normalized_variance_ratio,manual_target
+Mu,4,"(30, 4)",1.5978285422710405,3.2
+Beta,4,"(30, 4)",1.3886297569666493,2.8
+Broadband,6,"(30, 6)",1.3795980390969216,4.1

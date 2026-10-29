@@ -1,13 +1,9 @@
-import { Button } from "@/components/motion/button/base";
+import { Button } from "@/components/ui/button";
 
-export default function Page() {
+export default function Home() {
   return (
     <div>
-      <Button>
-        Hallo
-
-      </Button>
-
+      <Button>Hallo</Button>
     </div>
   );
 }
