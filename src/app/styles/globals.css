@@ -273,6 +273,12 @@
   .bento-results {
     min-height: 300px;
   }
+
+  .bento-power [data-slot="chart"],
+  .bento-latency [data-slot="chart"] {
+    height: 170px;
+    flex: none;
+  }
 }
 
 @media (max-width: 639px) {

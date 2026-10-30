@@ -927,7 +927,7 @@ export function BciDashboard({
           subtitle="Verified analysis, kept separate"
           icon={<CircleGaugeIcon className="size-4" />}
           className="bento-results"
-          contentClassName="p-2"
+          contentClassName="flex flex-col p-2"
         >
           {dataset?.role === "upload" ? (
             <EmptyPanel
@@ -936,10 +936,7 @@ export function BciDashboard({
               text="No classifier, CSP or latency result is claimed for this uploaded file."
             />
           ) : (
-            <Tabs
-              defaultValue="performance"
-              className="size-full min-h-0 gap-1"
-            >
+            <Tabs defaultValue="performance" className="min-h-0 flex-1 gap-1">
               <TabsList className="h-7 w-full rounded-lg p-0.5">
                 <TabsTrigger
                   value="performance"
